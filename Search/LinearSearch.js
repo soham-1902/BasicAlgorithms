@@ -1,6 +1,5 @@
 
-
-function Search(arr, target){
+function search(arr, target){
     for(let i=0; i<arr.length; i++){
      if(arr[i]==target){
        return i;
@@ -9,5 +8,5 @@ function Search(arr, target){
     return "not found"
  
  }
- 
- console.log(linearSearch([-89, 7, 6, 0, 12, 76], 77));
+  
+ console.log(search([-89, 7, 6, 0, 12, 76], 77));
